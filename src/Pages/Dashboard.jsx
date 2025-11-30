@@ -32,7 +32,7 @@ const Dashboard = () => {
                 </Content>
 
                  <Footer style={footerStyle}>
-                    <h3>Chessilicious © {new Date().getFullYear()}</h3>
+                    <h3>TwChess © {new Date().getFullYear()}</h3>
                     <h5>Created by Ritsav</h5>
                 </Footer>
              </Layout> 
