@@ -2,7 +2,7 @@ import { HomeOutlined, PlayCircleFilled } from "@ant-design/icons"
 import { Menu } from "antd"
 import Sider from "antd/es/layout/Sider"
 import { useState } from "react"
-import { Link, useLocation } from "react-router";
+import { Link } from "react-router";
 
 function getItem(label, key, icon, path, children) {
   return {
@@ -16,7 +16,6 @@ function getItem(label, key, icon, path, children) {
 
 const CustomSidebar = () => {
     const [collapsed, setCollapsed] = useState(false)
-    const route = useLocation()
 
     const menuItems = [
         getItem(<Link to="/">Home</Link>, "1", <HomeOutlined />, "/"),

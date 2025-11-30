@@ -1,11 +1,10 @@
 import { Outlet } from "react-router"
 import CustomSidebar from "../Components/CustomSidebar"
-import { Breadcrumb, Layout, Row } from "antd"
+import { Layout } from "antd"
 import { Content, Footer } from "antd/es/layout/layout"
 
 const Dashboard = () => {
     const contentStyle = {
-        border: '3px solid black',
         textAlign: 'center',
         display: 'flex',
         direction: 'column',
